@@ -33,7 +33,7 @@
             android:background="@drawable/rounded_corner"
             android:padding="18dp"
             android:inputType="text"
-            android:id="@+id/username_input"
+            android:id="@+id/username"
             />
 
         <EditText
@@ -47,7 +47,7 @@
             android:background="@drawable/rounded_corner"
             android:padding="18dp"
             android:inputType="textPassword"
-            android:id="@+id/password_input"
+            android:id="@+id/password"
             />
         
         <Button
@@ -58,8 +58,15 @@
             android:padding="18dp"
             android:layout_marginTop="32dp"
             android:textSize="20sp"
-            android:id="@+id/login_btn"/>
+            android:id="@+id/login_button"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: user Password: password"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="32dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
